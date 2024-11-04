@@ -1,0 +1,106 @@
+.text1, .text2 {
+  width: 200px;
+  height: 200px;
+  background: #009ABF;
+  margin: 0 100px 50px 0;
+  border-radius: 20px
+}
+
+.text1:nth-child(even), 
+.text2:nth-child(odd) {
+  background: #009ABF;
+}
+
+.text1:hover, .text2:hover {
+  background: #FF9F19;
+}
+
+.text3, .text4 {
+  width: 200px;
+  height: 200px;
+  background: #009ABF;
+  margin: 0 100px 50px 0;
+  border-radius: 20px
+}
+
+.text3:nth-child(even), 
+.text4:nth-child(odd) {
+  background: #009ABF;
+}
+
+.text3:hover, .text4:hover {
+  background: #FF9F19;
+}
+
+.text5, .text6 {
+  width: 200px;
+  height: 200px;
+  background: #009ABF;
+  margin: 0 100px 50px 0;
+  border-radius: 20px
+}
+
+.text5:nth-child(even), 
+.text6:nth-child(odd) {
+  background: #009ABF;
+}
+
+.text5:hover, .text6:hover {
+  background: #FF9F19;
+}
+
+.text7, .text8 {
+  width: 200px;
+  height: 200px;
+  background: #009ABF;
+  margin: 0 100px 50px 0;
+  border-radius: 20px
+}
+
+.text7:nth-child(even), 
+.text8:nth-child(odd) {
+  background: #009ABF;
+}
+
+.text7:hover, .text8:hover {
+  background: #FF9F19;
+}
+
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #FFA500, #FF4500, #FFD700, #FFA500);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7  {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.text1:hover, .text2:hover  {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
