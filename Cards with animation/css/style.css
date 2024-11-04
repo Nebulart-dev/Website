@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 600px;
+  justify-content: space-around;
+}
+.block1, .block2 {
+  width: 200px;
+  height: 200px;
+  background: #009ABF;
+  margin: 0 100px 50px 0;
+  border-radius: 20px
+}
+
+.block1:nth-child(even), 
+.block2:nth-child(odd) {
+  background: #009ABF;
+}
+
+.block1:hover, .block2:hover {
+  background: #FF9F19;
+}
+
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #000000, #191970, #000080, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+.block1, .block2  {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.block1:hover, .block2:hover {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
